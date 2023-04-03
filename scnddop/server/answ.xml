@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<out_data>
+	<AnswAll>
+		<sucs>succese</sucs>
+		<countEtr>5843</countEtr>
+		<AnswArr>1 1 1 2 1 1 2 3 1 1 3 4 3 1 4 2 3 2 1 3 2 4 4 4 2 3 2 3 3 2 2 LOAD: 1240</AnswArr>
+	</AnswAll>
+	<methodCall>print</methodCall>
+</out_data>

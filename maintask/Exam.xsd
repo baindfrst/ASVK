@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="input_data">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="PROCESSORS">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="TO_WORK_PROCENT">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element maxOccurs="unbounded" name="values">
+											<xs:complexType>
+												<xs:attribute name="Number" type="xs:unsignedByte" use="required" />
+												<xs:attribute name="Percents" type="xs:string" use="required" />
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="Count" type="xs:unsignedByte" use="required" />
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="WORKERS">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="WORKER_LOAD">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element maxOccurs="unbounded" name="values">
+											<xs:complexType>
+												<xs:attribute name="Number" type="xs:unsignedByte" use="required" />
+												<xs:attribute name="Percents" type="xs:string" use="required" />
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="Count" type="xs:unsignedByte" use="required" />
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="CONNECTION_PARS">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element maxOccurs="unbounded" name="values">
+								<xs:complexType>
+									<xs:attribute name="Frst" type="xs:unsignedByte" use="required" />
+									<xs:attribute name="Scnd" type="xs:unsignedByte" use="required" />
+									<xs:attribute name="Load" type="xs:unsignedByte" use="required" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+
+<input_data>
+    <PROCESSORS Count = "4">
+        <TO_WORK_PROCENT>
+            <values Number = "1" Percents = "100%"></values>
+            <values Number = "2" Percents = "100%"></values>
+            <values Number = "3" Percents = "90%"></values>
+            <values Number = "4" Percents = "100%"></values>
+        </TO_WORK_PROCENT>
+    </PROCESSORS>
+    <WORKERS Count = "32">
+        <WORKER_LOAD>
+            <values Number = "1" Percents = "10%"></values>
+            <values Number = "2" Percents = "10%"></values>
+            <values Number = "3" Percents = "5%"></values>
+            <values Number = "4" Percents = "5%"></values>
+            <values Number = "5" Percents = "10%"></values>
+            <values Number = "6" Percents = "15%"></values>
+            <values Number = "7" Percents = "5%"></values>
+            <values Number = "8" Percents = "20%"></values>
+            <values Number = "9" Percents = "15%"></values>
+            <values Number = "10" Percents = "5%"></values>
+            <values Number = "11" Percents = "15%"></values>
+            <values Number = "12" Percents = "20%"></values>
+            <values Number = "13" Percents = "5%"></values>
+            <values Number = "14" Percents = "10%"></values>
+            <values Number = "15" Percents = "5%"></values>
+            <values Number = "16" Percents = "20%"></values>
+            <values Number = "17" Percents = "10%"></values>
+            <values Number = "18" Percents = "5%"></values>
+            <values Number = "19" Percents = "20%"></values>
+            <values Number = "20" Percents = "15%"></values>
+            <values Number = "21" Percents = "20%"></values>
+            <values Number = "22" Percents = "15%"></values>
+            <values Number = "23" Percents = "15%"></values>
+            <values Number = "24" Percents = "5%"></values>
+            <values Number = "25" Percents = "5%"></values>
+            <values Number = "26" Percents = "10%"></values>
+            <values Number = "27" Percents = "10%"></values>
+            <values Number = "28" Percents = "10%"></values>
+            <values Number = "29" Percents = "5%"></values>
+            <values Number = "30" Percents = "20%"></values>
+            <values Number = "31" Percents = "10%"></values>
+            <values Number = "32" Percents = "10%"></values>
+        </WORKER_LOAD>
+    </WORKERS>
+    <CONNECTION_PARS>
+        <values Frst = "1" Scnd = "2" Load = "100"></values>
+        <values Frst = "1" Scnd = "3" Load = "100"></values>
+        <values Frst = "1" Scnd = "2" Load = "50"></values>
+        <values Frst = "2" Scnd = "3" Load = "0"></values>
+        <values Frst = "3" Scnd = "4" Load = "100"></values>
+        <values Frst = "4" Scnd = "5" Load = "10"></values>
+        <values Frst = "5" Scnd = "6" Load = "10"></values>
+        <values Frst = "6" Scnd = "7" Load = "50"></values>
+        <values Frst = "7" Scnd = "8" Load = "70"></values>
+        <values Frst = "8" Scnd = "9" Load = "70"></values>
+        <values Frst = "9" Scnd = "10" Load = "10"></values>
+        <values Frst = "10" Scnd = "11" Load = "10"></values>
+        <values Frst = "11" Scnd = "12" Load = "0"></values>
+        <values Frst = "12" Scnd = "13" Load = "50"></values>
+        <values Frst = "13" Scnd = "14" Load = "100"></values>
+        <values Frst = "14" Scnd = "15" Load = "70"></values>
+        <values Frst = "15" Scnd = "16" Load = "50"></values>
+        <values Frst = "16" Scnd = "17" Load = "100"></values>
+        <values Frst = "17" Scnd = "18" Load = "0"></values>
+        <values Frst = "18" Scnd = "19" Load = "0"></values>
+        <values Frst = "19" Scnd = "20" Load = "50"></values>
+        <values Frst = "20" Scnd = "21" Load = "100"></values>
+        <values Frst = "21" Scnd = "22" Load = "100"></values>
+        <values Frst = "22" Scnd = "23" Load = "10"></values>
+        <values Frst = "23" Scnd = "24" Load = "100"></values>
+        <values Frst = "24" Scnd = "25" Load = "100"></values>
+        <values Frst = "25" Scnd = "26" Load = "100"></values>
+        <values Frst = "26" Scnd = "27" Load = "100"></values>
+        <values Frst = "27" Scnd = "28" Load = "0"></values>
+        <values Frst = "28" Scnd = "29" Load = "0"></values>
+        <values Frst = "29" Scnd = "30" Load = "10"></values>
+        <values Frst = "30" Scnd = "31" Load = "10"></values>
+        <values Frst = "31" Scnd = "32" Load = "50"></values>
+        <values Frst = "32" Scnd = "1" Load = "70"></values>
+        <values Frst = "27" Scnd = "15" Load = "70"></values>
+        <values Frst = "31" Scnd = "1" Load = "70"></values>
+        <values Frst = "17" Scnd = "23" Load = "0"></values>
+        <values Frst = "29" Scnd = "2" Load = "100"></values>
+        <values Frst = "12" Scnd = "30" Load = "0"></values>
+        <values Frst = "8" Scnd = "6" Load = "10"></values>
+        <values Frst = "1" Scnd = "6" Load = "100"></values>
+        <values Frst = "30" Scnd = "14" Load = "10"></values>
+        <values Frst = "19" Scnd = "1" Load = "100"></values>
+        <values Frst = "23" Scnd = "29" Load = "0"></values>
+        <values Frst = "28" Scnd = "30" Load = "10"></values>
+        <values Frst = "19" Scnd = "3" Load = "0"></values>
+    </CONNECTION_PARS>
+</input_data>

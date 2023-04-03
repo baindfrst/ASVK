@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<methodCall>main</methodCall>
+	<dataZone count="1">
+		<test>
+			<input_data>
+				<PROCESSORS Count="4">
+					<TO_WORK_PROCENT>
+						<values Number="1" Percents="100%" />
+						<values Number="2" Percents="100%" />
+						<values Number="3" Percents="90%" />
+						<values Number="4" Percents="50%" />
+					</TO_WORK_PROCENT>
+				</PROCESSORS>
+				<WORKERS Count="31">
+					<WORKER_LOAD>
+						<values Number="1" Percents="5%" />
+						<values Number="2" Percents="15%" />
+						<values Number="3" Percents="5%" />
+						<values Number="4" Percents="5%" />
+						<values Number="5" Percents="10%" />
+						<values Number="6" Percents="5%" />
+						<values Number="7" Percents="5%" />
+						<values Number="8" Percents="10%" />
+						<values Number="9" Percents="15%" />
+						<values Number="10" Percents="15%" />
+						<values Number="11" Percents="10%" />
+						<values Number="12" Percents="5%" />
+						<values Number="13" Percents="5%" />
+						<values Number="14" Percents="15%" />
+						<values Number="15" Percents="15%" />
+						<values Number="16" Percents="20%" />
+						<values Number="17" Percents="10%" />
+						<values Number="18" Percents="10%" />
+						<values Number="19" Percents="10%" />
+						<values Number="20" Percents="20%" />
+						<values Number="21" Percents="20%" />
+						<values Number="22" Percents="5%" />
+						<values Number="23" Percents="15%" />
+						<values Number="24" Percents="10%" />
+						<values Number="25" Percents="10%" />
+						<values Number="26" Percents="15%" />
+						<values Number="27" Percents="15%" />
+						<values Number="28" Percents="10%" />
+						<values Number="29" Percents="10%" />
+						<values Number="30" Percents="5%" />
+						<values Number="31" Percents="10%" />
+					</WORKER_LOAD>
+				</WORKERS>
+				<CONNECTION_PARS>
+					<values Frst="1" Scnd="2" Load="50" />
+					<values Frst="1" Scnd="3" Load="70" />
+					<values Frst="14" Scnd="19" Load="0" />
+					<values Frst="5" Scnd="22" Load="50" />
+					<values Frst="11" Scnd="22" Load="10" />
+					<values Frst="28" Scnd="6" Load="0" />
+					<values Frst="30" Scnd="27" Load="70" />
+					<values Frst="1" Scnd="7" Load="0" />
+					<values Frst="26" Scnd="1" Load="50" />
+					<values Frst="8" Scnd="7" Load="0" />
+					<values Frst="11" Scnd="20" Load="50" />
+					<values Frst="27" Scnd="12" Load="100" />
+					<values Frst="8" Scnd="25" Load="100" />
+					<values Frst="31" Scnd="27" Load="10" />
+					<values Frst="16" Scnd="5" Load="70" />
+					<values Frst="16" Scnd="1" Load="70" />
+					<values Frst="19" Scnd="30" Load="0" />
+					<values Frst="11" Scnd="31" Load="70" />
+					<values Frst="22" Scnd="25" Load="0" />
+					<values Frst="27" Scnd="30" Load="50" />
+					<values Frst="30" Scnd="7" Load="70" />
+					<values Frst="8" Scnd="1" Load="100" />
+					<values Frst="14" Scnd="8" Load="50" />
+					<values Frst="5" Scnd="6" Load="50" />
+					<values Frst="17" Scnd="19" Load="10" />
+					<values Frst="17" Scnd="3" Load="10" />
+					<values Frst="24" Scnd="21" Load="50" />
+					<values Frst="23" Scnd="1" Load="50" />
+					<values Frst="28" Scnd="20" Load="10" />
+					<values Frst="2" Scnd="15" Load="50" />
+					<values Frst="12" Scnd="11" Load="0" />
+					<values Frst="9" Scnd="17" Load="10" />
+					<values Frst="16" Scnd="30" Load="0" />
+					<values Frst="14" Scnd="3" Load="70" />
+					<values Frst="7" Scnd="17" Load="100" />
+					<values Frst="5" Scnd="2" Load="50" />
+					<values Frst="2" Scnd="25" Load="50" />
+					<values Frst="27" Scnd="14" Load="0" />
+					<values Frst="20" Scnd="10" Load="10" />
+					<values Frst="4" Scnd="10" Load="70" />
+					<values Frst="18" Scnd="21" Load="0" />
+					<values Frst="7" Scnd="27" Load="0" />
+					<values Frst="27" Scnd="9" Load="50" />
+					<values Frst="19" Scnd="22" Load="0" />
+					<values Frst="19" Scnd="29" Load="0" />
+					<values Frst="3" Scnd="31" Load="50" />
+					<values Frst="21" Scnd="1" Load="50" />
+					<values Frst="27" Scnd="26" Load="10" />
+				</CONNECTION_PARS>
+			</input_data>
+		</test>
+	</dataZone>
+</root>

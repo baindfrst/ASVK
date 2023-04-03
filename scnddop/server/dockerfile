@@ -1,0 +1,8 @@
+FROM ubuntu:bionic
+FROM gcc:latest
+ADD . /usr/src
+WORKDIR /usr/src
+EXPOSE 5555
+RUN g++ myserver.cpp -o server
+RUN g++ Source1.cpp ConnectionInfo.cpp ProccesorsInfo.cpp Readingxml.cpp VectorsWork.cpp WorkerInfo.cpp -o main
+CMD ["/bin/bash"]

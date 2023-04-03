@@ -1,0 +1,2 @@
+// в этом классе описанная функция для процессов
+void MultiFunc(MultiShm *shm, ProccesorsInfo* curentProccesorsInfo, WorkerInfo* curentWorkersInfo, ConnectionInfo *curentConnectionInfo); // функция, которую выполняют создаваемые процессоры, которая выполняет алгоритм для поиска решений

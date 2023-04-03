@@ -1,0 +1,10 @@
+FROM ubuntu:bionic
+FROM gcc:latest
+#just in case,  you can install gcc and cmake
+#RUN apt-get update && apt-get -y install build-essentials gcc cmake
+ADD . /usr/src 
+WORKDIR /usr/src
+EXPOSE 123
+RUN g++ myclient.cpp -o client
+RUN g++ reader.cpp -o createdata
+CMD ["/bin/bash"]
